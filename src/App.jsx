@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-
+import ScrollIndicator from ".";
 
 function App() {
-
-
   return (
-    <div></div>
-  )
+    <div>
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+    </div>
+  );
 }
 
-export default App
+export default App;
